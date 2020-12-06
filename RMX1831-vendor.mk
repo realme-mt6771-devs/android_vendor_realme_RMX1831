@@ -2313,4 +2313,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     SoterService \
+    ImsService \
     manifest_android.hardware.drm@1.3-service.widevine

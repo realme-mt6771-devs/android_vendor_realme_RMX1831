@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX1831
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/RMX1831/proprietary/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
     vendor/realme/RMX1831/proprietary/bin/iwpriv:system/bin/iwpriv \
     vendor/realme/RMX1831/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/realme/RMX1831/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \

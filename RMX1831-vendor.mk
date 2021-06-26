@@ -1747,6 +1747,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
+    vendor/realme/RMX1831/proprietary/vendor/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv.ko \
+    vendor/realme/RMX1831/proprietary/vendor/lib/modules/fpsgo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fpsgo.ko \
+    vendor/realme/RMX1831/proprietary/vendor/lib/modules/gps_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/gps_drv.ko \
+    vendor/realme/RMX1831/proprietary/vendor/lib/modules/kneuron.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/kneuron.ko \
+    vendor/realme/RMX1831/proprietary/vendor/lib/modules/met.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/met.ko \
+    vendor/realme/RMX1831/proprietary/vendor/lib/modules/wlan_drv_gen3.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan_drv_gen3.ko \
+    vendor/realme/RMX1831/proprietary/vendor/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_chrdev_wifi.ko \
+    vendor/realme/RMX1831/proprietary/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
     vendor/realme/RMX1831/proprietary/vendor/lib/s5k3l6_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3l6_mipi_raw_IdxMgr.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/s5k3l6_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3l6_mipi_raw_tuning.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/soter_attk_provision.so:$(TARGET_COPY_OUT_VENDOR)/lib/soter_attk_provision.so \

@@ -1490,15 +1490,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/dfps.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dfps.mt6771.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.default.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib/hw/gatekeeper.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt6771.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib/hw/gatekeeper.oppo6771_18611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.oppo6771_18611.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/gralloc.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt6771.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib/hw/keystore.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mt6771.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib/hw/keystore.oppo6771_18611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.oppo6771_18611.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib/hw/kmsetkey.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.default.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.trustonic.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/libMcGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libMcGatekeeper.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/libMcTeeKeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libMcTeeKeymaster.so \
@@ -1525,7 +1519,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/vendor.oppo.hardware.oiface@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.oiface@1.0-impl.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib/hw/vulkan.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt6771.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/imx576_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx576_mipi_raw_IdxMgr.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/imx576_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx576_mipi_raw_tuning.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
@@ -1859,16 +1852,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/dfps.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dfps.mt6771.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib64/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.default.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib64/hw/gatekeeper.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mt6771.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib64/hw/gatekeeper.oppo6771_18611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.oppo6771_18611.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/gralloc.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.mt6771.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/hwcomposer.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6771.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib64/hw/keystore.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mt6771.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib64/hw/keystore.oppo6771_18611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.oppo6771_18611.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib64/hw/kmsetkey.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.default.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.trustonic.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/libMcGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libMcGatekeeper.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/libMcTeeKeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libMcTeeKeymaster.so \
@@ -1900,7 +1887,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/vendor.oppo.hardware.ktv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.ktv@1.0-impl.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/vendor.oppo.hardware.oiface@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.oiface@1.0-impl.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
-    vendor/realme/RMX1831/proprietary/vendor/lib64/hw/vulkan.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mt6771.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/imx576_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx576_mipi_raw_IdxMgr.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/imx576_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx576_mipi_raw_tuning.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
@@ -2378,13 +2364,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so \
-    vendor/realme/RMX1831/proprietary/vendor/nvcfg:$(TARGET_COPY_OUT_VENDOR)/nvcfg \
-    vendor/realme/RMX1831/proprietary/vendor/nvdata:$(TARGET_COPY_OUT_VENDOR)/nvdata \
     vendor/realme/RMX1831/proprietary/vendor/oppo/ck.fs:$(TARGET_COPY_OUT_VENDOR)/oppo/ck.fs \
     vendor/realme/RMX1831/proprietary/vendor/oppo/recovery_rootcheck:$(TARGET_COPY_OUT_VENDOR)/oppo/recovery_rootcheck \
-    vendor/realme/RMX1831/proprietary/vendor/persist:$(TARGET_COPY_OUT_VENDOR)/persist \
-    vendor/realme/RMX1831/proprietary/vendor/protect_f:$(TARGET_COPY_OUT_VENDOR)/protect_f \
-    vendor/realme/RMX1831/proprietary/vendor/protect_s:$(TARGET_COPY_OUT_VENDOR)/protect_s \
     vendor/realme/RMX1831/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     vendor/realme/RMX1831/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     vendor/realme/RMX1831/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \

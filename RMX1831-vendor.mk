@@ -77,10 +77,18 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/bin/exp_lock:$(TARGET_COPY_OUT_VENDOR)/bin/exp_lock \
     vendor/realme/RMX1831/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
     vendor/realme/RMX1831/proprietary/vendor/bin/flashlessd:$(TARGET_COPY_OUT_VENDOR)/bin/flashlessd \
-    vendor/realme/RMX1831/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/realme/RMX1831/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
+    vendor/realme/RMX1831/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/realme/RMX1831/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/realme/RMX1831/proprietary/vendor/bin/hw/android.hardware.audio@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@4.0-service-mediatek \
+    vendor/realme/RMX1831/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
+    vendor/realme/RMX1831/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
+    vendor/realme/RMX1831/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
+    vendor/realme/RMX1831/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
+    vendor/realme/RMX1831/proprietary/vendor/etc/init/hw/init.oppo.reserve.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.oppo.reserve.rc \
+    vendor/realme/RMX1831/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/realme/RMX1831/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
     vendor/realme/RMX1831/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.1-service \
     vendor/realme/RMX1831/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
@@ -2313,4 +2321,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     SoterService \
     ImsService \
+    mtk-wifi-service \
     manifest_android.hardware.drm@1.3-service.widevine

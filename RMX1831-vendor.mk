@@ -1736,6 +1736,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/libutinterface_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutinterface_md.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/libvc1dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so \
@@ -2236,6 +2237,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/lib64/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtextclassifier_hash.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
+    vendor/realme/RMX1831/proprietary/vendor/lib64/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustonic_keybox_ca.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui_ext.so \

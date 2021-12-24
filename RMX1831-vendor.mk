@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/bin/OppoKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/OppoKeybox \
     vendor/realme/RMX1831/proprietary/vendor/bin/TBaseDeviceBinding:$(TARGET_COPY_OUT_VENDOR)/bin/TBaseDeviceBinding \
     vendor/realme/RMX1831/proprietary/vendor/bin/atci_service:$(TARGET_COPY_OUT_VENDOR)/bin/atci_service \
+    vendor/realme/RMX1831/proprietary/vendor/bin/init.oppo.fingerprints.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.oppo.fingerprints.sh \
     vendor/realme/RMX1831/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/realme/RMX1831/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     vendor/realme/RMX1831/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
